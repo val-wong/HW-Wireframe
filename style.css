@@ -4,15 +4,76 @@
 }
 
 body {
-   font-size: 10px;
-   line-height: 92px;
+   font-size: 18px;
    color: #8D8D8A;
    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+   background: #777;
+   line-height: 60px;
+}
 
+header {
+      width: 960px;
+      margin-bottom: 10px;
+      background: #ebebeb;
+      padding: 20px; 
+}
+
+div {
+      width: 960px;
+      padding: 20px;
+      margin-bottom: 20px;
+      background: #ebebeb;
+}
+
+section {
+      background: #ebebeb;
+      height: 300px;
+      line-height: 85px;
+}
+
+#section {
+      width: 560px;
+      float: left;
+      position: relative;
+      margin-bottom: 20px;
+}
+
+#aside {
+      width: 380px;
+      float: right;
+      right: 503px;
+      position: absolute;
+}
+
+#article {
+      height: 210px;
+      width: 540px;
+      background: #777;
+      position: absolute;
+      bottom: 305px;
+      left: 17px;
+      font-size: 18px;
+      font-family: "Arial";
+      color: #ebebeb;
 }
 
 
-#body
+footer {
+      width: 960px;
+      padding: 20px;
+      clear: both;
+      background: #ebebeb;
+
+      
+}
+
+
+
+
+
+
+
+/**#body
    {
       width: 960px;
       height: 960px;
@@ -20,47 +81,43 @@ body {
    }
 
 #header {
-      width: 900px;
+      width: 960px;
       height: 100px;
+      margin-bottom: 10px;
       background: #ebebeb;
-      margin-bottom: -5px;
+      padding: 20px; 
+      line-height: 60px;
       }
 
 
 #nav {
-      width: 900px;
+      width: 960px;
       height: 100px;
       background: #ebebeb;
+      margin-bottom: 30px;
+      line-height: 90px;
 }
 
 #section {
-      width: 500px;
+      width: 580px;
       height: 280px;
       background: #ebebeb;
       position: relative;
       float: left;
-      line-height: 70px;
+      line-height: 90px;
+      top: -10px;
+      overflow: auto;
 }
 
 #article {
-      position: absolute;
-      height: 190px;
-      width: 480px;
-      background: #777;
-      top: 315px;
-      left: 17px;
-      line-height: 55px;
-
-}
-
-#h123 {
   
-}
-
-#p {
-
-   }
-
-#footer {
 
 }
+
+#aside {
+
+}
+
+**/
+
+
