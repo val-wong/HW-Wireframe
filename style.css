@@ -1,3 +1,13 @@
+
+html {
+   display: table;
+   margin: auto;
+}
+
+body {
+   vertical-align: middle;
+}
+
 * {
    box-sizing: border-box;
    text-align: center;
@@ -9,6 +19,7 @@ body {
    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
    background: #777;
    line-height: 60px;
+
 }
 
 header {
@@ -41,7 +52,7 @@ section {
 #aside {
       width: 380px;
       float: right;
-      right: 503px;
+      right: 255px;
       position: absolute;
 }
 
@@ -50,13 +61,42 @@ section {
       width: 540px;
       background: #777;
       position: absolute;
-      bottom: 305px;
-      left: 17px;
+      bottom: 324px;
+      left: 265px;
       font-size: 18px;
       font-family: "Arial";
       color: #ebebeb;
+      clear: both;
+      overflow: auto;
 }
 
+#headers {
+      float: left;
+      width: 33.5%;
+      height: 60px;
+      padding: 20px;
+      margin-left: 30px;
+      background: #ebebeb;
+      border: 1px solid #eee;
+      position: absolute;
+      z-index: 1;
+      top: 350px;
+      line-height: 20px
+}
+
+#p {
+      float: left;
+      width: 33.5%;
+      height: 60px;
+      padding: 20px;
+      margin-left: 30px;
+      background: #ebebeb;
+      border: 1px solid #eee;
+      position: absolute;
+      z-index: 1;
+      top: 425px;
+      line-height: 20px;
+}
 
 footer {
       width: 960px;
